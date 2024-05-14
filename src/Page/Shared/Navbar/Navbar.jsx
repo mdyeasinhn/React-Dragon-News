@@ -6,6 +6,8 @@ const Navbar = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
         <li><NavLink to="/career">Career</NavLink></li>
+        <li><NavLink to="/login">Login</NavLink></li>
+        <li><NavLink to="/register">Register</NavLink></li>
 
 
 
@@ -36,7 +38,7 @@ const Navbar = () => {
                         <img alt="Tailwind CSS Navbar component" src={userDefaultPic} />
                     </div>
                 </div>
-                <Link><button className="btn">Login</button></Link>
+                <Link to="/login"><button className="btn">Login</button></Link>
             </div>
         </div>
     );
